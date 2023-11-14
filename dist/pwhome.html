@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PWSkills - a web page development class</title>
+</head>
+<body class="bg-yellow-400">
+   <nav class="w-full h-14 bg-yellow-400 flex justify-between px-4 md:px-4 ">
+    <div class="mt-3 text-2xl text-indigo-900 font-bold">PW Skills</div>
+    <ul class="md:flex font-semibold">
+        <li class="mt-3 mx-[10px] cursor-pointer">Home</li>
+        <li class="mt-3 mx-[10px] cursor-pointer">About Us</li>
+        <li class="mt-3 mx-[10px] cursor-pointer">Contact Us</li>
+    </ul>
+    <div class="mt-3 mb-2 hidden md:block px-2 py-2 bg-indigo-700 text-white rounded-xl font-bold cursor-pointer">Login/Sign Up</div>
+    <div class="md:hidden ">
+        <a class="text-4xl" href="#">&#8801;</a>
+    </div>
+   </nav>
+   <header class="w-full ">
+    <img class="w-full h-screen"src="https://cdn.dribbble.com/userupload/10774041/file/original-a76756af9ff35a1439fe361c02c7f472.png?resize=1600x1211" alt="">
+   </header>
+
+   <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+    <div class="w-full h-auto flex flex-wrap flex-col items-center text-center "><p class="text-indigo-900 font-bold text-3xl" >"Pure Hardwork, No Shortcuts!"</p>
+    <div class=" mt-3 w-36 h-1 border-b-4 border-black rounded-xl"></div>
+</div>
+ <div class="w-full flex flex-wrap justify-evenly"> 
+    <div class="w-46 flex flex-col items-center mb-12">
+        <img class="mt-3 w-44 h-44 rounded-full"src="https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/04/01170800/Free-Online-Courses-with-Certificates.jpg" alt="">
+        <p class="text-3xl font-bold text-violet-700">600+</p>
+        <p>Different courses</p>
+    </div>
+    <div class="w-46 flex flex-col items-center mb-12">
+        <img class="mt-3 w-44 h-44 rounded-full"src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="">
+        <p class="text-3xl font-bold text-violet-700">500+</p>
+        <p>Students Enrolled</p>
+    </div>
+    <div class="w-46 flex flex-col items-center mb-12">
+        <img class="mt-3 w-44 h-44 rounded-full"src="data:image/png;base64,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" alt="">
+        <p class="text-3xl font-bold text-violet-700">10000+</p>
+        <p>Succesfull Transition</p>
+    </div>
+ </div>
+   </div>
+   <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+    <div class="h-auto w-full flex flex-wrap flex-col items-center text-center ">
+        <p class="text-indigo-900 font-bold text-3xl">Our Products</p>
+        <div class=" mt-3 w-36 h-1 border-b-4 border-black rounded-xl"></div>
+    </div>
+    <div class="w-[90%] h-auto flex flex-wrap justify-around">
+        <div class="w-64 flex flex-col items-center -mb-12 border-white border-2 rounded-xl p-2" >
+            <img src="https://cdn-icons-png.flaticon.com/512/8713/8713437.png" alt="">
+            <p class="text-3xl font-bold text-violet-700">PW Skills lab </p>
+            <p class="text-xl font-bold text-violet-200">SuperCharge your development skills</p>
+        </div>
+        <div class="w-64 flex flex-col items-center -mb-12 border-white border-2 rounded-xl p-2" >
+            <img src="https://cdn-icons-png.flaticon.com/512/8713/8713437.png" alt="">
+            <p class="text-3xl font-bold text-violet-700">PW Skills lab </p>
+            <p class="text-xl font-bold text-violet-200">SuperCharge your development skills</p>
+        </div>
+        <div class="w-64 flex flex-col items-center -mb-12 border-white border-2 rounded-xl p-2" >
+            <img src="https://cdn-icons-png.flaticon.com/512/8713/8713437.png" alt="">
+            <p class="text-3xl font-bold text-violet-700">PW Skills lab </p>
+            <p class="text-xl font-bold text-violet-200">SuperCharge your development skills</p>
+        </div>
+        <div class="w-64 flex flex-col items-center -mb-12 border-white border-2 rounded-xl p-2" >
+            <img src="https://cdn-icons-png.flaticon.com/512/8713/8713437.png" alt="">
+            <p class="text-3xl font-bold text-violet-700">PW Skills lab </p>
+            <p class="text-xl font-bold text-violet-200">SuperCharge your development skills</p>
+        </div>
+        
+    </div>
+   </div>
+</body>
+</html>
